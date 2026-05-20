@@ -1,0 +1,240 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Wed May 20 15:23:48 2026
+# Process ID         : 17212
+# Current directory  : E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1
+# Command line       : vivado.exe -log first_zynq_system_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_wrapper.tcl
+# Log file           : E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/first_zynq_system_wrapper.vds
+# Journal file       : E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1\vivado.jou
+# Running On         : nglmnhat
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : Intel(R) Core(TM) i7-8665U CPU @ 1.90GHz
+# CPU Frequency      : 2112 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 16943 MB
+# Swap memory        : 1302 MB
+# Total Virtual      : 18246 MB
+# Available Virtual  : 3807 MB
+#-----------------------------------------------------------
+source first_zynq_system_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 540.234 ; gain = 220.426
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/2025.2/Vivado/data/ip'.
+Command: synth_design -top first_zynq_system_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 16216
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1343.352 ; gain = 540.422
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system_wrapper' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/hdl/first_zynq_system_wrapper.vhd:42]
+INFO: [Synth 8-3491] module 'first_zynq_system' declared at 'e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:15' bound to instance 'first_zynq_system_i' of component 'first_zynq_system' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/hdl/first_zynq_system_wrapper.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:46]
+INFO: [Synth 8-3491] module 'first_zynq_system_axi_gpio_0_0' declared at 'E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_axi_gpio_0_0_stub.vhdl:6' bound to instance 'axi_gpio_0' of component 'first_zynq_system_axi_gpio_0_0' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:328]
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system_axi_gpio_0_0' [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_axi_gpio_0_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'first_zynq_system_axi_smc_0' declared at 'E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_axi_smc_0_stub.vhdl:6' bound to instance 'axi_smc' of component 'first_zynq_system_axi_smc_0' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:351]
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system_axi_smc_0' [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_axi_smc_0_stub.vhdl:77]
+INFO: [Synth 8-3491] module 'first_zynq_system_processing_system7_0_0' declared at 'E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_processing_system7_0_0_stub.vhdl:6' bound to instance 'processing_system7_0' of component 'first_zynq_system_processing_system7_0_0' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:413]
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system_processing_system7_0_0' [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_processing_system7_0_0_stub.vhdl:91]
+INFO: [Synth 8-3491] module 'first_zynq_system_rst_ps7_0_100M_0' declared at 'E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_rst_ps7_0_100M_0_stub.vhdl:6' bound to instance 'rst_ps7_0_100M' of component 'first_zynq_system_rst_ps7_0_100M_0' [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:489]
+INFO: [Synth 8-638] synthesizing module 'first_zynq_system_rst_ps7_0_100M_0' [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/.Xil/Vivado-17212-nglmnhat/realtime/first_zynq_system_rst_ps7_0_100M_0_stub.vhdl:28]
+INFO: [Synth 8-256] done synthesizing module 'first_zynq_system' (0#1) [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/synth/first_zynq_system.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'first_zynq_system_wrapper' (0#1) [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/hdl/first_zynq_system_wrapper.vhd:42]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1469.629 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_processing_system7_0_0/first_zynq_system_processing_system7_0_0/first_zynq_system_processing_system7_0_0_in_context.xdc] for cell 'first_zynq_system_i/processing_system7_0'
+Finished Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_processing_system7_0_0/first_zynq_system_processing_system7_0_0/first_zynq_system_processing_system7_0_0_in_context.xdc] for cell 'first_zynq_system_i/processing_system7_0'
+Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_axi_gpio_0_0/first_zynq_system_axi_gpio_0_0/first_zynq_system_axi_gpio_0_0_in_context.xdc] for cell 'first_zynq_system_i/axi_gpio_0'
+Finished Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_axi_gpio_0_0/first_zynq_system_axi_gpio_0_0/first_zynq_system_axi_gpio_0_0_in_context.xdc] for cell 'first_zynq_system_i/axi_gpio_0'
+Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_axi_smc_0/first_zynq_system_axi_smc_0/first_zynq_system_axi_smc_0_in_context.xdc] for cell 'first_zynq_system_i/axi_smc'
+Finished Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_axi_smc_0/first_zynq_system_axi_smc_0/first_zynq_system_axi_smc_0_in_context.xdc] for cell 'first_zynq_system_i/axi_smc'
+Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_rst_ps7_0_100M_0/first_zynq_system_rst_ps7_0_100M_0/first_zynq_system_rst_ps7_0_100M_0_in_context.xdc] for cell 'first_zynq_system_i/rst_ps7_0_100M'
+Finished Parsing XDC File [e:/Vivado/PROJECT/first_zynq_design/first_zynq_design.gen/sources_1/bd/first_zynq_system/ip/first_zynq_system_rst_ps7_0_100M_0/first_zynq_system_rst_ps7_0_100M_0/first_zynq_system_rst_ps7_0_100M_0_in_context.xdc] for cell 'first_zynq_system_i/rst_ps7_0_100M'
+Parsing XDC File [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1469.629 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1469.629 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1469.629 ; gain = 666.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1477.621 ; gain = 674.691
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1647.559 ; gain = 844.629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1647.633 ; gain = 844.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1657.438 ; gain = 854.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------------------+----------+
+|      |BlackBox name                            |Instances |
++------+-----------------------------------------+----------+
+|1     |first_zynq_system_axi_gpio_0_0           |         1|
+|2     |first_zynq_system_axi_smc_0              |         1|
+|3     |first_zynq_system_processing_system7_0_0 |         1|
+|4     |first_zynq_system_rst_ps7_0_100M_0       |         1|
++------+-----------------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------------------+------+
+|      |Cell                                          |Count |
++------+----------------------------------------------+------+
+|1     |first_zynq_system_axi_gpio_0_0_bbox           |     1|
+|2     |first_zynq_system_axi_smc_0_bbox              |     1|
+|3     |first_zynq_system_processing_system7_0_0_bbox |     1|
+|4     |first_zynq_system_rst_ps7_0_100M_0_bbox       |     1|
+|5     |OBUF                                          |     8|
++------+----------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:45 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+Synthesis Optimization Complete : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1906.438 ; gain = 1103.508
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1915.590 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1919.223 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a245d4ae
+INFO: [Common 17-83] Releasing license: Synthesis
+28 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 1919.223 ; gain = 1363.953
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1919.223 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Vivado/PROJECT/first_zynq_design/first_zynq_design.runs/synth_1/first_zynq_system_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file first_zynq_system_wrapper_utilization_synth.rpt -pb first_zynq_system_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed May 20 15:25:07 2026...
